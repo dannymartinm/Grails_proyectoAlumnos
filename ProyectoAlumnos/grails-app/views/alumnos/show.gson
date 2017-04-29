@@ -1,0 +1,7 @@
+import mx.itesm.ccm.Alumnos
+
+model {
+	Alumnos alumnos
+}
+
+json tmpl.alumnos(alumnos)

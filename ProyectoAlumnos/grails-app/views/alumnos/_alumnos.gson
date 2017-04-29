@@ -1,0 +1,15 @@
+import mx.itesm.ccm.Alumnos
+
+model {
+	Alumnos alumnos
+}
+
+json{
+	imagenes{
+		href "http://imagenes.itesm.mx/alumnos"+alumnos.matricula
+	}
+	id alumnos.id
+	nombre alumnos.nombre
+	nombreCompleto alumnos.nombre+" "+alumnos.apellidos
+	habilitado alumnos.habilitado
+}

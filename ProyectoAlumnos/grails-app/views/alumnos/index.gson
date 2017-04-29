@@ -1,0 +1,8 @@
+import mx.itesm.ccm.Alumnos
+
+model {
+	Iterable<Alumnos> alumnosList
+}
+
+json tmpl.alumnos(alumnosList ?: [])
+

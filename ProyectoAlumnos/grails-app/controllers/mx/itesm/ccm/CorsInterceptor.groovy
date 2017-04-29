@@ -1,5 +1,7 @@
 package mx.itesm.ccm
 
+//para crear este archivo -> grails create-interceptor mx.itesm.ccm CorsInterceptor
+
 //A interceptor is responsible intercepting incoming web requests and performing actions such as authentication, logging and so on.
 //Interceptors: Los controladores serán interceptados por todos los interceptors que haya.
 //	3 peticiones: 1 que es antes de recibir la petición, después y después del despliegue la vista

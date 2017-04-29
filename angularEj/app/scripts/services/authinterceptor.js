@@ -7,6 +7,7 @@
  * # authInterceptor
  * Factory in the angularEjApp.
  */
+ //para crear este archivo -> yo angular:factory authInterceptor
 angular.module('angularEjApp')
   .factory('authInterceptor', function ($rootScope, $window) {
     return{

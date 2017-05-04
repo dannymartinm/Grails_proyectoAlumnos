@@ -1,0 +1,7 @@
+import mx.itesm.ccm.Materias
+
+model {
+	Materias materias
+}
+
+json tmpl.materias(materias)

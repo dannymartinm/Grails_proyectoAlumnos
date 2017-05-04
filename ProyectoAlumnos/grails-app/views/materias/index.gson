@@ -1,0 +1,8 @@
+import mx.itesm.ccm.Materias
+
+model {
+	Iterable<Materias> materiasList
+}
+
+json tmpl.materias(materiasList ?: [])
+

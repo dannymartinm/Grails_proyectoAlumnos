@@ -12,6 +12,8 @@ class Alumnos {
 	int edad
 	boolean habilitado
 
+	static hasMany = [materias: Materias]
+
 	static constraints = {
 		matricula unique:true
 		email email:true

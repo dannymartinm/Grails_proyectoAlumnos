@@ -13,4 +13,5 @@ json{
 	matricula alumnos.matricula
 	nombreCompleto alumnos.nombre+" "+alumnos.apellidos
 	habilitado alumnos.habilitado
+	materia g.render(alumnos.materias, [deep: true]) 
 }
